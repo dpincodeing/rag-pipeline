@@ -110,9 +110,11 @@ python ingest.py
 
 ### 6. Ask a question
 
-```python
-# Edit ask.py and set your question, then run:
-python ask.py
+> [!IMPORTANT]
+> Use the exact Python path below to run the RAG pipeline with Ollama on Windows:
+
+```bash
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\python.exe ask.py
 ```
 
 ---
