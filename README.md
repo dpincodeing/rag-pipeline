@@ -111,11 +111,18 @@ python ingest.py
 ### 6. Ask a question
 
 > [!IMPORTANT]
-> Use the exact Python path below to run the RAG pipeline with Ollama on Windows:
+> Use the exact Python path below to run the RAG pipeline with Ollama on Windows.
+> ⚠️ **This path is for the author's personal laptop — you must change the directory to match your own Python installation path.**
 
 ```bash
+# Author's machine (personal laptop):
 C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\python.exe ask.py
+
+# Replace with your own path, for example:
+# C:\Users\YourUsername\AppData\Local\Programs\Python\Python3XX\python.exe ask.py
 ```
+
+> To find your Python path, run `where python` or `py -0p` in your terminal.
 
 ---
 
