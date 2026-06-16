@@ -1,0 +1,6 @@
+chroma_db/
+rag_logs.db
+document.pdf
+.env
+__pycache__/
+*.pyc
