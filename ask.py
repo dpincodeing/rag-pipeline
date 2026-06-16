@@ -12,6 +12,8 @@ llm = OllamaLLM(model="llama3.2")
 
 
 
+question = input("Ask a question about your document: ")
+
 start = time.time()
 
 results = db.similarity_search(question, k=1)
